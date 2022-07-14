@@ -1,7 +1,9 @@
-import javax.servlet.ServletException;
-import javax.servlet.ServletOutputStream;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
 import java.io.IOException;
+import java.io.PrintWriter;
+
 
 public class ServletTest extends HttpServlet {
     @Override
